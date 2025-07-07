@@ -1,0 +1,2 @@
+[console_scripts]
+file-name-checker = hooks.file_name_checker:main

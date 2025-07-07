@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-hooks"
+version = "0.1.0"
+description = "Checks if file names are in Godot specific snake_case"
+authors = [
+  { name="Niklas Wortmann", email="niwortma@gmail.de" }
+]
+dependencies = []       
+
+[project.scripts]
+file-name-checker = "hooks.file_name_checker:main"
