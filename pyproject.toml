@@ -12,4 +12,6 @@ authors = [
 dependencies = []       
 
 [project.scripts]
-file-name-checker = "hooks.file_name_checker:main"
+file-name-checker           = "hooks.file_name_checker:main"
+node-name-checker           = "hooks.node_name_checker:main"
+signal-connection-checker   = "hooks.signal_connection_checker:main"
