@@ -39,10 +39,9 @@ def main() -> int:
                 bad[str(rel)] = errs
 
     if bad:
-        print("the following .tscn files contain node names in the wrong format:")
         for file, errs in bad.items():
             for line, name in errs:
-                print(f"  - {file}:{line} → '{name}' is not PascalCase")
+                print(f"  - {file}:{line} '{name}' is not PascalCase")
         return 1
 
     return 0

@@ -3,8 +3,6 @@ import os
 import re
 import sys
 
-PASS = 0
-FAIL = 1
 
 SNAKE_CASE = r"[a-z][a-z0-9]*(_[a-z0-9]+)*"
 snake_pattern = re.compile(f"^{SNAKE_CASE}$")
