@@ -595,6 +595,7 @@ def get_node_category(node_type: str) -> str:
 
 
 def main() -> int:
+    root = Path.cwd()
     scenes_with_wrong_order = []
 
     for dirpath, dirnames, filenames in os.walk(root):

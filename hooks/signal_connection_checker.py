@@ -15,6 +15,7 @@ def has_signal_connection(tscn_path: str) -> bool:
 
 
 def main() -> int:
+    root = Path.cwd()
     scene_files_with_signal_connections = []
 
     for dirpath, dirnames, filenames in os.walk(root):

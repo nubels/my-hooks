@@ -12,9 +12,10 @@ snake_case_pattern = re.compile(f"^{SNAKE_CASE}$")
 
 
 def main() -> int:
+    root = Path.cwd()
     non_snake_case_paths = []
 
-    for dirpath, dirnames, filenames in os.walk(root_path):
+    for dirpath, dirnames, filenames in os.walk(root):
         dirnames[:] = [d for d in dirnames if not d.startswith(".") and d != "addons"]
         filenames[:] = [
             f

@@ -20,6 +20,7 @@ def check_node_paths(file_path: str):
 
 
 def main() -> int:
+    root = Path.cwd()
     invalid_node_paths = []
 
     for dir_path, dir_names, file_names in os.walk(root):
