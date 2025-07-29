@@ -15,3 +15,15 @@
   entry: signal-connection-checker
   language: python
   files: '\.tscn$'
+
+- id: node-order-checker
+  name: Node Order Checker
+  entry: node-order-checker
+  language: python
+  files: '\.tscn$'
+
+- id: node-path-checker
+  name: Node Path Checker
+  entry: node-path-checker
+  language: python
+  files: '\.tscn$'
