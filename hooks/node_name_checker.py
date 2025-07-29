@@ -22,6 +22,7 @@ def scan_file(path: str):
 
 
 def main() -> int:
+    root = Path.cwd()
     non_pascal_cases = []
 
     for dirpath, dirnames, filenames in os.walk(root):

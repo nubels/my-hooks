@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: my-hooks
-Version: 0.1.0
-Summary: Checks if file names are in Godot specific snake_case
-Author-email: Niklas Wortmann <niwortma@gmail.de>
